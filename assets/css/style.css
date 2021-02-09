@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Roboto&display=swap');
+
+/*--------------------------------------------Special paddings/margins/text*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub{
+    font-family: Exo;
+    font-weight: 300;
+    color: #fafafa;
+    text-align: center;
+}
+
+/*--------------------------------------------Heading*/
+
+body {
+    margin: 0;
+    background: #482500;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.btn-primary {
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.btn-primary:hover {
+    background-color: #96938E;
+    border-color: #fff;
+}
+
+.text-centre {
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #2C1001;
+    overflow: hidden;;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 0 15px;
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 35px;
+    padding-top: 60px;
+    text-transform: uppercase;
+    color: #fafafa;
+    font-weight: 400;
+    font-size: 25px;
+
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 11px;
+}
+
+nav li:hover{
+    color: #96938E;
+    transition: all ease-in-out 350ms;
+}
+
+nav li::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #96938E;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 350ms;
+}
+
+nav li:hover::before {
+    width: 100%;
+}
+
+/*--------------------------------------------Footer*/
+
+footer {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 2px solid #2C1001;
+    overflow: hidden;
+}
+
+.general-sub a{
+color: white
+}
+
+.address {
+    padding-top: 1rem;
+    text-decoration: none;
+}
+
+p a:link:hover{
+    color: #96938E;
+    transition: all ease-in-out .25s;
+    text-decoration: none;
+}
+
+/*--------------------------------------------Home*/
+
+#main-image {
+    padding: 1.5rem;
+}
+
+.main-title {
+    padding-top: 6rem;
+    font-size: 40px;
+}
+
+.main-text {
+    padding-top: 2rem;
+    font-size: 20px;
+}
+

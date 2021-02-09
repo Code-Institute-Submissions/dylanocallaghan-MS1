@@ -12,7 +12,41 @@
 </head>
 <body>
     <header>
-        <!-- Start Navigation  -->
+<!-- Start Navigation  -->
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    <div class="centre-text">
+        Deals for student or couple memberships now! Click Here!
+    </div>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Join us now!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Name:
+
+        Email address:
+
+        Phone number:
+        
+        Membership type:
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
         <div class="container">
             <!-- Site logo -->
             <a href="index.html">
@@ -21,8 +55,7 @@
                 <!-- Nav menu -->
                 <nav>
                     <ul>
-                        <li><a href="#"></a>home</li>
-                        <li><a href="#"></a>classes</li>
+                        <li><a href="index.html"></a>home</li>
                         <li><a href="#"></a>memberships</li>
                         <li><a href="#"></a>facilities</li>
                         <li><a href="#"></a>contact</li>
@@ -32,9 +65,42 @@
         </div>
         <!-- End Navigation  -->
     </header>
-    <section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="image-fluid" src="assets/images/first.jpg" id="main-image">
+            </div>
+            <div class="col-sm-8">
+                    <h2 class="uppercase general-sub main-title">
+                        DevMuscles                       
+                    </h2>
+                    <p class="general-sub inline-block main-text">
+                        We are not just a gym. We are a lifestyle.
+                         <br>
+                         We strive to offer you an excellent work out 
+                         experience in a brand new state of the art club,
+                         <br> 
+                         that is designed around our members needs.
+                         <br>
+                         DevMuscles is the place to go if you want to become
+                         a better you!
+                         <br>
+                          We welcome all to come in any day during 
+                         the week for a tour of all of our facilities and
+                         services.
+                         <br> 
+                         If you're feeling a bit tired after a long work 
+                         out make sure to pick up a smoothie from our new 
+                         smoothie stand.
+                         <br>
+                          We hope to see you soon!
+                    </p>
+            
+            </div>
+        </div> 
 
     </section>
+        <!-- Start Footer  -->
     <footer class="container-fluid">
         <div class="row">
             <div class="col-sm-4">
@@ -51,11 +117,30 @@
             </div>
             <div class="col-sm-4">
                 <h4 class="uppercase general-sub">Memberships</h4>
+                <p class="general-sub inline-block address">
+                     Tailored memberships to suit your needs,
+                     <br>
+                      from full time and off-peaks,
+                      <br> 
+                     through student and platinum discounts 
+                     <br>
+                     to various membership periods to choose from.
+                </p>
             </div>
             <div class="col-sm-4">
-                <h4 class="uppercase general-sub">Personal Training</h4>
+                <h4 class="uppercase general-sub">About DevMuscles</h4>
+                <p class="general-sub inline-block address">
+                     We are not just a gym. We are a lifestyle. 
+                     <br>
+                     We strive to offer you an excellent work out 
+                     <br>
+                     experience in a brand new state of the art club, 
+                     <br>
+                     that is designed around our members needs.
+                </p>
             </div>
         </div>
     </footer>
+    <!-- End Footer  -->
 </body>
 </html>
