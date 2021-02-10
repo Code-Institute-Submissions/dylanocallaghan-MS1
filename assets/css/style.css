@@ -16,6 +16,10 @@ h6 {
     text-transform: uppercase;
 }
 
+.no-transform {
+    text-transform: none;
+}
+
 .general-sub{
     font-family: Exo;
     font-weight: 300;
@@ -158,6 +162,19 @@ p a:link:hover{
     text-decoration: none;
 }
 
+.social-links li i {
+    padding-top: 25px;
+    padding-left: 15px;
+    font-size: 75px;
+    text-decoration: none;
+    color: #1C0A01;
+}
+
+.social-links li i:hover {
+    color: #96938E;
+    transition: all ease-in-out .25s;
+}
+
 /*--------------------------------------------Home*/
 
 #main-image {
@@ -174,3 +191,31 @@ p a:link:hover{
     font-size: 20px;
 }
 
+/*--------------------------------------------Memberships*/
+
+#mem-image {
+    height: 469px;
+    width: 625px;
+}
+
+.mem-title {
+    padding-top: 3rem;
+    font-size: 40px;
+}
+
+.mem-list {
+    display: inline-block;
+    padding-left: 140px;
+    padding-top: 15px;
+    text-transform: uppercase;
+    color: #fafafa;
+    font-weight: 400;
+    font-size: 35px;
+
+    position: relative;
+}
+
+.list-item {
+    font-size: 15px;
+    padding-top: 10px;
+}
