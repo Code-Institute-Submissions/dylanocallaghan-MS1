@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo&family=Roboto&display=swap');
-
 /*--------------------------------------------Special paddings/margins/text*/
-
 h1,
 h2,
 h3,
@@ -11,35 +9,29 @@ h6 {
     margin: 0;
     padding-top: 1rem;
 }
-
 .uppercase {
     text-transform: uppercase;
 }
-
 .no-transform {
     text-transform: none;
 }
-
 .general-sub{
-    font-family: Exo;
+    font-family: Exo, sans-serif;
     font-weight: 300;
     color: #fafafa;
     text-align: center;
 }
 /*--------------------------------------------Heading*/
-
 body {
     margin: 0;
     background: #482500;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 400;
 }
-
 .events {
     background-color: yellow;
     color: #fff;
 }
-
 .modal {
     position: fixed;
     top: 0;
@@ -51,171 +43,149 @@ body {
     overflow: hidden;
     outline: 0;
 }
-
 .sign-up {
     color: #fff;
     background-color: #1C0A01;
-    margin-bottom: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-bottom: .7rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
 }
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
 header{
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     border-bottom: 2px solid #2C1001;
     overflow: hidden;;
 }
-
 header::after {
     content: '';
     display: table;
     clear: both;
 }
-
-.logo {
-    float: left;
-    padding: 0 15px;
-    height: 150px;
-    width: 200px;
-    border-radius: 50%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 nav {
     float: right;
 }
-
+.navbar {
+    width: 100%;
+}
+.bg-dark {
+    background: #482500 !important;
+}
 nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-
-
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
 nav li{
     display: inline-block;
-    margin-left: 35px;
-    padding-top: 60px;
+    padding-top: 3.7rem;
     text-transform: uppercase;
     color: #fafafa;
     font-weight: 400;
-    font-size: 25px;
-
+    font-size: 1.6rem;
     position: relative;
 }
-
 nav a {
     text-decoration: none;
-    font-size: 11px;
+    font-size: .7rem;
 }
-
 nav li:hover{
     color: #96938E;
     transition: all ease-in-out 350ms;
 }
-
+.nav-link {
+    font-size: 1.5rem;
+}
 nav li::before {
     content: '';
     display: block;
     height: 5px;
-    width: 100%;
     background-color: #96938E;
-
     position: absolute;
     top: 0;
     width: 0%;
     transition: all ease-in-out 350ms;
 }
-
 nav li:hover::before {
     width: 100%;
 }
-
 /*--------------------------------------------Footer*/
-
 footer {
     margin-top: 1rem;
     padding-top: 1rem;
     border-top: 2px solid #2C1001;
     overflow: hidden;
 }
-
 .general-sub a{
 color: white
 }
-
 .address {
     padding-top: 1rem;
     text-decoration: none;
 }
-
 p a:link:hover{
     color: #96938E;
     transition: all ease-in-out .25s;
     text-decoration: none;
 }
-
 .social-links li i {
-    padding-top: 25px;
-    padding-left: 15px;
-    font-size: 75px;
+    padding-top: 1.7rem;
+    padding-left: 1rem;
+    font-size: 4rem;
     text-decoration: none;
     color: #1C0A01;
 }
-
 .social-links li i:hover {
     color: #96938E;
     transition: all ease-in-out .25s;
 }
-
 /*--------------------------------------------Home*/
-
 #main-image {
     padding: 1.5rem;
+    width: 100%;
 }
-
 .main-title {
     padding-top: 6rem;
-    font-size: 40px;
+    font-size: 1.5rem;
 }
-
 .main-text {
     padding-top: 2rem;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
-
 /*--------------------------------------------Memberships*/
-
 #mem-image {
-    height: 469px;
-    width: 625px;
+    width: 100%;
 }
-
 .mem-title {
     padding-top: 3rem;
-    font-size: 40px;
+    font-size: 3rem;
 }
-
 .mem-list {
-    display: inline-block;
-    padding-left: 140px;
-    padding-top: 15px;
-    text-transform: uppercase;
+    padding-top: 3rem;
+    font-size: 1.5rem;
     color: #fafafa;
-    font-weight: 400;
-    font-size: 35px;
-
-    position: relative;
+    list-style: none;
+}
+.list-item {
+    font-size: 1rem;
+    padding-top: .7rem;
+}
+/*--------------------------------------------Facilities*/
+#fac-image {
+    padding: 1.5rem;
+    width: 100%;
 }
 
-.list-item {
-    font-size: 15px;
-    padding-top: 10px;
+.fac-list {
+    font-size: 1rem;
+    padding-top: 1.4rem;
+    list-style: square;
+    color: #fafafa;
+}
+
+.fac-title {
+    padding-top: 3rem;
+    font-size: 3rem;
 }
