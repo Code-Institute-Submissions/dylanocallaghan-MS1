@@ -29,7 +29,7 @@ body {
     font-weight: 400;
 }
 .events {
-    background-color: yellow;
+    background-color: #F8DB25;
     color: #fff;
 }
 .modal {
@@ -145,6 +145,7 @@ p a:link:hover{
 #main-image {
     padding: 1.5rem;
     width: 100%;
+    padding-top: 5rem;
 }
 .main-title {
     padding-top: 6rem;
@@ -152,10 +153,11 @@ p a:link:hover{
 }
 .main-text {
     padding-top: 2rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 /*--------------------------------------------Memberships*/
 #mem-image {
+    padding: 1.5rem;
     width: 100%;
 }
 .mem-title {
@@ -172,6 +174,22 @@ p a:link:hover{
     font-size: 1rem;
     padding-top: .7rem;
 }
+
+.whole {
+    padding-left: 0%;
+}
+
+#me-image {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+ @media only screen and (min-width: 992px)  {
+    #main-image {
+        padding-top: 17rem !important;
+    }
+ }
+
 /*--------------------------------------------Facilities*/
 #fac-image {
     padding: 1.5rem;
@@ -188,4 +206,35 @@ p a:link:hover{
 .fac-title {
     padding-top: 3rem;
     font-size: 3rem;
+}
+/*--------------------------------------------Contacts*/
+.cont-form {
+    background-color: #2C1001;
+    border-radius: 5%;
+    padding: 2.25rem;
+    width: 100%;
+    color: #fafafa;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .75rem;
+}
+
+.btn {
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    background-color: #F8DB25;
+}
+
+.btn:hover {
+    background-color: #96938E;
+    border: transparent;
+}
+
+.form-check {
+    display: inline;;
 }
