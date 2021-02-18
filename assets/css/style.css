@@ -30,8 +30,9 @@ body {
 }
 .events {
     background-color: #F8DB25;
-    color: #fff;
+    color: #482500;
 }
+
 .modal {
     position: fixed;
     top: 0;
@@ -49,6 +50,16 @@ body {
     margin-bottom: .7rem;
     padding-top: .7rem;
     padding-bottom: .7rem;
+}
+.logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+.logo:hover {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.5rem;
 }
 header{
     margin-bottom: 1rem;
@@ -80,7 +91,7 @@ nav ul {
 }
 nav li{
     display: inline-block;
-    padding-top: 3.7rem;
+    padding-top: 2rem;
     text-transform: uppercase;
     color: #fafafa;
     font-weight: 400;
@@ -91,7 +102,7 @@ nav a {
     text-decoration: none;
     font-size: .7rem;
 }
-nav li:hover{
+nav-link:hover {
     color: #96938E;
     transition: all ease-in-out 350ms;
 }
@@ -101,13 +112,14 @@ nav li:hover{
 nav li::before {
     content: '';
     display: block;
-    height: 5px;
+    height: .25rem;
     background-color: #96938E;
     position: absolute;
     top: 0;
     width: 0%;
     transition: all ease-in-out 350ms;
 }
+
 nav li:hover::before {
     width: 100%;
 }
@@ -123,18 +135,18 @@ color: white
 }
 .address {
     padding-top: 1rem;
-    text-decoration: none;
+}
+p a {
+    text-decoration: underline;
 }
 p a:link:hover{
     color: #96938E;
     transition: all ease-in-out .25s;
-    text-decoration: none;
 }
 .social-links li i {
     padding-top: 1.7rem;
     padding-left: 1rem;
     font-size: 4rem;
-    text-decoration: none;
     color: #1C0A01;
 }
 .social-links li i:hover {
@@ -185,7 +197,7 @@ p a:link:hover{
 }
 
  @media only screen and (min-width: 992px)  {
-    #main-image {
+    .mem-image {
         padding-top: 17rem !important;
     }
  }
@@ -198,7 +210,7 @@ p a:link:hover{
 
 .fac-list {
     font-size: 1rem;
-    padding-top: 1.4rem;
+    padding-top: 3rem;
     list-style: square;
     color: #fafafa;
 }
@@ -228,6 +240,7 @@ label {
     line-height: 1.5;
     border-radius: .25rem;
     background-color: #F8DB25;
+    color: #482500;
 }
 
 .btn:hover {
@@ -237,4 +250,5 @@ label {
 
 .form-check {
     display: inline;;
+    padding-left: 0;
 }
