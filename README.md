@@ -11,7 +11,6 @@
     * [Colour Scheme](#Colour-Scheme)
     * [Imagery](#Imagery)
     * [Wireframes](#Wireframes)
-    * [Differences to Design](Differences-to-Design)
 * [Limitations](#Limitations)
 - [Features](#Features)
     * [Existing Features](#Existing-Features)
@@ -43,7 +42,7 @@ The live website can be found [here]().
 
 # Devmuscles Website
 
-![Website Mock Up](assets/images/readme-images/mock-up.jpg)
+![Website Mock Up](assets/images/readme-images/mock-up.png)
 
 The Devmuscles website was built to meet certain goals set in Project Example Idea 2, which is to build a website for a gym. 
 there were also an external user's goal of supplying relivant information for gym members and potiential members, 
@@ -61,7 +60,7 @@ who want to learn more about the gym and its precedures. There is also a goal to
 #### Returning Visitor Goals
 * As a Returning user, I want to be able to contact Devmuscles to ask questions and for more information.
 * As a Returning user, I want to find the address and opening hours of the gym.
-#### Frequent Visitor Goals
+#### Frequent User Goals
 * As a Frequent user, I want to check to see if there are any new upcoming offers.
 * As a Frequent user, I want to check the equipment and facilities within the gym.
 * As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or gym's interior.
@@ -123,7 +122,7 @@ Images are important to Devmuscles they are used in the website to show the insi
 #### Contact Page<br>
 ![Contact Page Wireframe](assets/wireframes/contact-wireframe.png)<br>
 
-For full side PDF's of the wireframes, please click the links below
+For full size PDF's of the wireframes, please click the links below
 * [Home Page Wireframe](assets/wireframes/home.pdf)
 
 * [About Page Wireframe](assets/wireframes/about.pdf)
@@ -134,11 +133,103 @@ For full side PDF's of the wireframes, please click the links below
 
 * [Contact Page Wireframe](assets/wireframes/home.pdf)
 
+### Limitations
+Due to no JavaScript functionality, apart from Bootstraps(JS/JQuery) used for the Modal Form as outlined in the Frameworks Libraries and 
+Programs Used section, the contact forms will not store data or send email requests.
+***
+## Features
+ 
+### Existing Features
+- Alert- This alert allows users to input you contact information opening up a modal form.
+- Contact Form - This can be completed on the contact.html page and used in order to contact the gym with any queries users may have.
+***
+## Technologies
 
+* HTML
+	* This project uses HTML as the main language used to complete the structure of the Website.
+* CSS
+	* This project uses custom written CSS to style the Website.
+* [Bootstrap](https://getbootstrap.com/)
+	* The Bootstrap framework is used throughout this website for layouts and styling. The car
+	* This has also been used to import JavaScript/Query used for the pop up Event booking modal
+* [Font Awesome](https://fontawesome.com/)
+	* Font awesome Icons are used for the Social media links contained in the Footer section of the website.
+* [Google Fonts](https://fonts.google.com/)
+	* Google fonts are used throughout the project to import the *Libre Baskerville* and *Cabin* fonts.
+* [GitHub](https://github.com/)
+	* GithHub is the hosting site used to store the source code for the Website and [Git Pages](https://pages.github.com/) is used for the deployment of the live site.
+* [Git](https://git-scm.com/)
+	* Git is used as version control software to commit and push code to the GitHub repository where the source code is stored.
+* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+	* Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
+* [balsamiq Wireframes](https://balsamiq.com/wireframes/)
+	* This was used to create wireframes for 'The Skeleton Plane' stage of UX design.
+* [CSS Generator](https://cssgenerator.org/rgba-and-hex-color-generator.html)
+    * This was used to convert the RGBA colour for the site to Hex. 
+* [Favicon](https://favicon.io/)
+    * Favicon.io was used to make the site favicon 
+* [Techsini](http://techsini.com/multi-mockup/index.php)
+    * tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image in this README
+***
+## Testing
 
+### Test Strategy 
 
+#### Summary 
 
+Testing is required on MilestoneProject-1
+As this project is static and contains no back-end functionality, the testing performed will be on the visual effects and layout of the Website. Testing to be done on at least three web browsers and all screen sizes.
+No elements should overlap another container div. 
+All nav links should direct to the correct html pages. The Home page is the exception, this one will go to index.html. 
 
-python3 -m http.server
-python3 -m http.server
-python3 -m http.server
+All links to external websites must open in a new browser.
+
+Testing of form validation will also be required to ensure the correct inputs are taken and that all fields are required. 
+
+Validation of inclusion for all features included in the Structure of the Website / Wireframes must be performed.
+
+The live Project can be found [here](https://dylanocallaghan.github.io/MS1/index.html).</br>
+
+#### Test Cases
+![Test Cases](assets/images/readme-images/test-setup.png)
+
+### Test Results
+
+![Test Cases](assets/images/readme-images/test-results.png)
+All Pages were run through the W3C HTML Validator and showed no errors. <br>
+CSS Stylesheet was run through the W3C CSS Validator and showed no errors.<br>
+Website was tested by running locally and tested on the deployed version. No differences found.
+
+## Deployment
+
+### Run Locally
+1. Navigate to the GitHub [Repository:](https://github.com/Daisy-McG/MilestoneProject-1)
+1. Click the Code drop down menu.
+1. Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
+1. Open your developement editor of choice and open a terminal window in a directory of your choice.
+1. Use the 'git clone' command in terminal followed by the copied git URL.
+1. A clone of the project will be created locally on your machine.
+
+### Using Github Pages
+1. Navigate to the GitHub [Repository:](https://github.com/dylanocallaghan/MS1)
+1. Click the 'Settings' Tab.
+1. Scroll Down to the Git Hub Pages Heading.
+1. Select 'Master Branch' as the source.
+1. Click the Save button.
+1. Click on the link to go to the live deployed page.
+
+***
+## Credits
+### Content
+The content of the website was created by Dylan O'Callaghan with help from Daisy Mcgirr who provided a Readme file template also Spencer Barriball helped with cleaning and general CSS of the website. 
+
+### Images  
+The images used are from different gym advertisements found online.
+
+### Acknowledgements
+I'd like to thank my mentor Spencer Baribell for his guidance throughout my project.<br>
+Thanks to Daisy McGirr with the Readme file template and helping me with multiple html or css problems. 
+
+## Git Commits
+
+I accidentaly made two inital commits and i cant rename the commits, the only difference was i added a index.html and a basic start to my html.

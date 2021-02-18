@@ -191,6 +191,10 @@ p a:link:hover{
     padding-left: 0%;
 }
 
+.whole li {
+    color: #fff;
+}
+
 #me-image {
     padding: 1.5rem;
     width: 100%;
